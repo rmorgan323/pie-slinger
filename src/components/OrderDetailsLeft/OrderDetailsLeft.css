@@ -48,6 +48,9 @@ p {
   color: #d1be95; }
 
 /***  MIXINS  ***/
-.App {
-  background-color: #fff9ed;
-  min-height: 100vh; }
+.OrderDetailsLeft {
+  width: 260px;
+  padding: 0 30px; }
+  .OrderDetailsLeft .order-container {
+    border-left: 6px solid #ded2bb;
+    padding-left: 10px; }

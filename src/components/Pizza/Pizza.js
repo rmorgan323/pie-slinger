@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import OrderDetails from '../OrderDetails/OrderDetails';
+import OrderDetailsLeft from '../OrderDetailsLeft/OrderDetailsLeft';
+import OrderDetailsRight from '../OrderDetailsRight/OrderDetailsRight';
 import Graphic from '../Graphic/Graphic';
 import getPizza from '../../helper/getPizza/getPizza';
 import './Pizza.css';
@@ -14,7 +15,7 @@ class Pizza extends Component {
 
   handleGetPizza = async () => {
     const randomPizza = await getPizza();
-    this.setState(randomPizza)
+    this.setState(randomPizza);
   }
 
   displayGraphic = () => {
@@ -29,21 +30,41 @@ class Pizza extends Component {
     }
   }
 
+  displayOrderLeft = () => {
+    if (this.state.order_id) {
+      return (
+        <OrderDetailsLeft 
+          date={this.state.order_date}
+          orderId={this.state.order_id}
+          crust={this.state.crust}
+          size={this.state.size}
+        />
+      )
+    }
+  }
+
+  displayOrderRight = () => {
+    if (this.state.order_id) {
+      return (
+        <OrderDetailsRight 
+          toppings={this.state.toppings}
+        />
+      )
+    }
+  }
+
   render () {
     return (
       <div className="Pizza">
         <button 
           className="get-pizza-button"
           onClick={() => this.handleGetPizza()}
-        >Pie Me!</button>
-        {this.displayGraphic()}
-        <OrderDetails 
-          date={this.state.order_date}
-          orderId={this.state.order_id}
-          crust={this.state.crust}
-          size={this.state.size}
-          toppings={this.state.toppings}
-        />
+        >PIE ME!</button>
+        <div className="pizza-container">
+          {this.displayOrderLeft()}
+          {this.displayGraphic()}
+          {this.displayOrderRight()}
+        </div>
       </div>
     )
   }
