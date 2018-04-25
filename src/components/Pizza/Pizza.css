@@ -67,3 +67,7 @@ p {
   .Pizza .pizza-container {
     display: flex;
     justify-content: center; }
+
+@media screen and (max-width: 919px) {
+  .Pizza .pizza-container {
+    flex-direction: column; } }

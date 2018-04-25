@@ -54,3 +54,11 @@ p {
   .OrderDetailsRight .toppings-container {
     border-left: 6px solid #ded2bb;
     padding-left: 10px; }
+  .OrderDetailsRight span {
+    color: #d1be95; }
+  .OrderDetailsRight .font-bold {
+    color: #8b5e3c; }
+
+@media screen and (max-width: 919px) {
+  .OrderDetailsRight {
+    margin: auto; } }

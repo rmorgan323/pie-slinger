@@ -2,12 +2,13 @@ import React from 'react';
 import './OrderDetailsRight.css';
 import moment from 'moment';
 import cap from '../../helper/cap/cap';
+import checkNormal from '../../helper/checkNormal/checkNormal';
 
 const OrderDetailsRight = ({ toppings }) => {
 
   const displayToppings = (toppingsArray) => {
     return toppingsArray.map((topping, index) => {
-      return <p key={index}>{cap(topping.name)}: {cap(topping.amount)}</p>
+      return <p key={index}>{cap(topping.name)}: <span className={checkNormal(topping.amount)}>{cap(topping.amount)}</span></p>
     });
   };
 

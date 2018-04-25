@@ -7,4 +7,18 @@
   .order-container {
     @include border-left;
   }
+
+  span {
+    color: $brown3;
+  }
+
+  .font-bold {
+    color: $brown4;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .OrderDetailsLeft {
+    margin: auto;
+  }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './OrderDetailsLeft.css';
 import moment from 'moment';
 import cap from '../../helper/cap/cap';
+import checkNormal from '../../helper/checkNormal/checkNormal';
 
 const OrderDetailsLeft = ({ date, orderId, crust, size }) => {
 
@@ -15,8 +16,8 @@ const OrderDetailsLeft = ({ date, orderId, crust, size }) => {
         </div>
         <h3>PIZZA</h3>
         <div className="order-container">
-          <p>Crust: {cap(crust)}</p>
-          <p>Size: {cap(size)}</p>
+          <p>Crust: <span className={checkNormal(crust)}>{cap(crust)}</span></p>
+          <p>Size: <span className={checkNormal(size)}>{cap(size)}</span></p>
         </div>
       </div>
     </div>
