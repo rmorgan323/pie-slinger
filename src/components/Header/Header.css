@@ -51,7 +51,8 @@ p {
 .Header {
   padding: 10px 20px;
   background-color: #d1be95;
-  border-bottom: 6px solid #ded2bb; }
+  border-bottom: 6px solid #ded2bb;
+  margin-bottom: 36px; }
   .Header h1 {
     color: #fff; }
   .Header .logo-span {
