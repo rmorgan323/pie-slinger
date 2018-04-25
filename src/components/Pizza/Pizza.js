@@ -10,7 +10,7 @@ class Pizza extends Component {
     super();
 
     this.state = {
-    }
+    };
   }
 
   handleGetPizza = async () => {
@@ -26,7 +26,7 @@ class Pizza extends Component {
           size={this.state.size}
           toppings={this.state.toppings}
         />
-      )
+      );
     }
   }
 
@@ -39,7 +39,7 @@ class Pizza extends Component {
           crust={this.state.crust}
           size={this.state.size}
         />
-      )
+      );
     }
   }
 
@@ -49,7 +49,7 @@ class Pizza extends Component {
         <OrderDetailsRight 
           toppings={this.state.toppings}
         />
-      )
+      );
     }
   }
 
@@ -66,7 +66,7 @@ class Pizza extends Component {
           {this.displayOrderRight()}
         </div>
       </div>
-    )
+    );
   }
 }
 

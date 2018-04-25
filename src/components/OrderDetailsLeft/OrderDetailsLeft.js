@@ -1,8 +1,9 @@
 import React from 'react';
-import './OrderDetailsLeft.css';
+import { PropTypes } from 'prop-types';
 import moment from 'moment';
 import cap from '../../helper/cap/cap';
 import checkNormal from '../../helper/checkNormal/checkNormal';
+import './OrderDetailsLeft.css';
 
 const OrderDetailsLeft = ({ date, orderId, crust, size }) => {
 
@@ -25,3 +26,10 @@ const OrderDetailsLeft = ({ date, orderId, crust, size }) => {
 };
 
 export default OrderDetailsLeft;
+
+OrderDetailsLeft.propTypes = {
+  date: PropTypes.string,
+  orderId: PropTypes.number,
+  crust: PropTypes.string,
+  size: PropTypes.string
+};

@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Pizza from '../Pizza/Pizza';
 import Header from '../Header/Header';
 
-class App extends Component {
+const App = () => {
 
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <Pizza />
-      </div>
-    );
-  }
-}
+  return (
+    <div className="App">
+      <Header />
+      <Pizza />
+    </div>
+  );
+};
 
 export default App;
