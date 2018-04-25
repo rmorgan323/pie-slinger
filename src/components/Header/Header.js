@@ -6,7 +6,7 @@ class Header extends Component {
   render () {
     return (
       <div className="Header">
-        Pizza Builder
+        <h1>pie<span className="logo-span">slinger</span></h1>
       </div>
     )
   }

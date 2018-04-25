@@ -1,0 +1,10 @@
+@import '../../variables.scss';
+
+.OrderDetailsLeft {
+  width: 260px;
+  padding: 0 30px;
+
+  .order-container {
+    @include border-left;
+  }
+}
