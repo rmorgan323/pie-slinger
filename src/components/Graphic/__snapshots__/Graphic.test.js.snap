@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Graphic tests should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Graphic
+    crust="thin"
+    size="medium"
+    toppings={
+        Array [
+            Object {
+              "amount": "normal",
+              "name": "cheese",
+            },
+            Object {
+              "amount": "extra",
+              "name": "pepperoni",
+            },
+            Object {
+              "amount": "extra",
+              "name": "sausage",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="pizza background"
+          src="/assets/background.svg"
+/>,
+        Array [
+          <img
+            alt={
+                        Object {
+                                    "amount": "normal",
+                                    "name": "cheese",
+                                  }
+            }
+            src="/assets/cheese-normal.svg"
+/>,
+          <img
+            alt={
+                        Object {
+                                    "amount": "extra",
+                                    "name": "pepperoni",
+                                  }
+            }
+            src="/assets/pepperoni-extra.svg"
+/>,
+          <img
+            alt={
+                        Object {
+                                    "amount": "extra",
+                                    "name": "sausage",
+                                  }
+            }
+            src="/assets/sausage-extra.svg"
+/>,
+        ],
+        <img
+          alt="thin crust"
+          src="/assets/crust-thin.svg"
+/>,
+      ],
+      "className": "Graphic medium-pizza",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "pizza background",
+          "src": "/assets/background.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "alt": Object {
+            "amount": "normal",
+            "name": "cheese",
+          },
+          "src": "/assets/cheese-normal.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "alt": Object {
+            "amount": "extra",
+            "name": "pepperoni",
+          },
+          "src": "/assets/pepperoni-extra.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "alt": Object {
+            "amount": "extra",
+            "name": "sausage",
+          },
+          "src": "/assets/sausage-extra.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "thin crust",
+          "src": "/assets/crust-thin.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="pizza background"
+            src="/assets/background.svg"
+/>,
+          Array [
+            <img
+              alt={
+                            Object {
+                                          "amount": "normal",
+                                          "name": "cheese",
+                                        }
+              }
+              src="/assets/cheese-normal.svg"
+/>,
+            <img
+              alt={
+                            Object {
+                                          "amount": "extra",
+                                          "name": "pepperoni",
+                                        }
+              }
+              src="/assets/pepperoni-extra.svg"
+/>,
+            <img
+              alt={
+                            Object {
+                                          "amount": "extra",
+                                          "name": "sausage",
+                                        }
+              }
+              src="/assets/sausage-extra.svg"
+/>,
+          ],
+          <img
+            alt="thin crust"
+            src="/assets/crust-thin.svg"
+/>,
+        ],
+        "className": "Graphic medium-pizza",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "pizza background",
+            "src": "/assets/background.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "alt": Object {
+              "amount": "normal",
+              "name": "cheese",
+            },
+            "src": "/assets/cheese-normal.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "alt": Object {
+              "amount": "extra",
+              "name": "pepperoni",
+            },
+            "src": "/assets/pepperoni-extra.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "alt": Object {
+              "amount": "extra",
+              "name": "sausage",
+            },
+            "src": "/assets/sausage-extra.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "thin crust",
+            "src": "/assets/crust-thin.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

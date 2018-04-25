@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderDetailsRight tests should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderDetailsRight
+    toppings={
+        Array [
+            Object {
+              "amount": "normal",
+              "name": "cheese",
+            },
+            Object {
+              "amount": "extra",
+              "name": "pepperoni",
+            },
+            Object {
+              "amount": "extra",
+              "name": "sausage",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          TOPPINGS
+</h3>,
+        <div
+          className="toppings-container"
+>
+          <p>
+                    Cheese
+                    : 
+                    <span
+                              className={undefined}
+                    >
+                              Normal
+                    </span>
+          </p>
+          <p>
+                    Pepperoni
+                    : 
+                    <span
+                              className="font-bold"
+                    >
+                              Extra
+                    </span>
+          </p>
+          <p>
+                    Sausage
+                    : 
+                    <span
+                              className="font-bold"
+                    >
+                              Extra
+                    </span>
+          </p>
+</div>,
+      ],
+      "className": "OrderDetailsRight",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "TOPPINGS",
+        },
+        "ref": null,
+        "rendered": "TOPPINGS",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Cheese
+              : 
+              <span
+                            className={undefined}
+              >
+                            Normal
+              </span>
+</p>,
+            <p>
+              Pepperoni
+              : 
+              <span
+                            className="font-bold"
+              >
+                            Extra
+              </span>
+</p>,
+            <p>
+              Sausage
+              : 
+              <span
+                            className="font-bold"
+              >
+                            Extra
+              </span>
+</p>,
+          ],
+          "className": "toppings-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Cheese",
+                ": ",
+                <span
+                  className={undefined}
+>
+                  Normal
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Cheese",
+              ": ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Normal",
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": "Normal",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Pepperoni",
+                ": ",
+                <span
+                  className="font-bold"
+>
+                  Extra
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Pepperoni",
+              ": ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Extra",
+                  "className": "font-bold",
+                },
+                "ref": null,
+                "rendered": "Extra",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Sausage",
+                ": ",
+                <span
+                  className="font-bold"
+>
+                  Extra
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Sausage",
+              ": ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Extra",
+                  "className": "font-bold",
+                },
+                "ref": null,
+                "rendered": "Extra",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            TOPPINGS
+</h3>,
+          <div
+            className="toppings-container"
+>
+            <p>
+                        Cheese
+                        : 
+                        <span
+                                    className={undefined}
+                        >
+                                    Normal
+                        </span>
+            </p>
+            <p>
+                        Pepperoni
+                        : 
+                        <span
+                                    className="font-bold"
+                        >
+                                    Extra
+                        </span>
+            </p>
+            <p>
+                        Sausage
+                        : 
+                        <span
+                                    className="font-bold"
+                        >
+                                    Extra
+                        </span>
+            </p>
+</div>,
+        ],
+        "className": "OrderDetailsRight",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "TOPPINGS",
+          },
+          "ref": null,
+          "rendered": "TOPPINGS",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Cheese
+                : 
+                <span
+                                className={undefined}
+                >
+                                Normal
+                </span>
+</p>,
+              <p>
+                Pepperoni
+                : 
+                <span
+                                className="font-bold"
+                >
+                                Extra
+                </span>
+</p>,
+              <p>
+                Sausage
+                : 
+                <span
+                                className="font-bold"
+                >
+                                Extra
+                </span>
+</p>,
+            ],
+            "className": "toppings-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Cheese",
+                  ": ",
+                  <span
+                    className={undefined}
+>
+                    Normal
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Cheese",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Normal",
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Normal",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Pepperoni",
+                  ": ",
+                  <span
+                    className="font-bold"
+>
+                    Extra
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Pepperoni",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Extra",
+                    "className": "font-bold",
+                  },
+                  "ref": null,
+                  "rendered": "Extra",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Sausage",
+                  ": ",
+                  <span
+                    className="font-bold"
+>
+                    Extra
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sausage",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Extra",
+                    "className": "font-bold",
+                  },
+                  "ref": null,
+                  "rendered": "Extra",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

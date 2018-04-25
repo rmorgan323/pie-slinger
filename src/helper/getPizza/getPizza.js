@@ -5,7 +5,7 @@ const getPizza = async () => {
 
     return jsonPizza;
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 
