@@ -1,0 +1,25 @@
+.Graphic {
+  margin: 10px auto;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.small-pizza {
+  width: 200px;
+  height: 133px;
+}
+
+.medium-pizza {
+  width: 300px;
+  height: 200px;
+}
+
+.large-pizza {
+  width: 400px;
+  height: 266px;
+}
