@@ -2,18 +2,18 @@
   margin: 10px auto;
   position: relative; }
   .Graphic img {
-    position: absolute;
     left: 0;
+    position: absolute;
     top: 0; }
 
 .small-pizza {
-  width: 200px;
-  height: 133px; }
+  height: 133px;
+  width: 200px; }
 
 .medium-pizza {
-  width: 300px;
-  height: 200px; }
+  height: 200px;
+  width: 300px; }
 
 .large-pizza {
-  width: 400px;
-  height: 266px; }
+  height: 266px;
+  width: 400px; }

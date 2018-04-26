@@ -1,6 +1,7 @@
 import getPizza from './getPizza';
 
 describe('getPizza tests', () => {
+  
   window.fetch = jest.fn().mockImplementation(() =>
     Promise.resolve({
       json: () => Promise.resolve(status: 'success')
@@ -19,4 +20,5 @@ describe('getPizza tests', () => {
     await getPizza();
     expect(window.fetch).toHaveBeenCalledWith(...expected);
   });
+
 });
