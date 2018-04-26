@@ -3,12 +3,21 @@ import { PropTypes } from 'prop-types';
 import './Graphic.css';
 
 const Graphic = ({ crust, size, toppings }) => {
+  
+  const graphics = [
+    'cheese', 'pepperoni', 'sausage', 'bacon', 'mushrooms', 'pineapple', 'ham', 'peppers'
+  ];
 
   const displayToppings = () => {
     return toppings.map((topping, index) => {
-      return (
-        <img key={index} src={`/assets/${topping.name}-${topping.amount}.svg`} alt={topping} />
-      );
+      if (graphics.includes(topping.name)) {
+        return (
+          <img 
+            key={index} 
+            src={`/assets/${topping.name}-${topping.amount}.svg`} alt={topping.name} 
+          />
+        );
+      }
     });
   };
 
@@ -16,7 +25,7 @@ const Graphic = ({ crust, size, toppings }) => {
     return <img src={`/assets/crust-${crust}.svg`} alt={`${crust} crust`} />;
   };
 
-  const pizzaClass = (pizzaSize) => {
+  const pizzaClass = pizzaSize => {
     return `Graphic ${pizzaSize}-pizza`;
   };
 

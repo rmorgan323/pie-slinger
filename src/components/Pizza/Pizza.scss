@@ -1,19 +1,19 @@
 @import '../../variables.scss';
 
 .Pizza {
-  max-width: 920px;
   margin: auto;
+  max-width: 920px;
 
   .get-pizza-button {
     background-color: $red2;
     border-bottom: 6px solid $red1;
     color: #fff;
-    padding: 10px 25px;
-    font-weight: 500;
-    font-size: 20px;
-    display: block;
-    margin: 20px auto;
     cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 10px 25px;
     @include std-transition;
   }
 

@@ -43,30 +43,15 @@ ShallowWrapper {
 />,
         Array [
           <img
-            alt={
-                        Object {
-                                    "amount": "normal",
-                                    "name": "cheese",
-                                  }
-            }
+            alt="cheese"
             src="/assets/cheese-normal.svg"
 />,
           <img
-            alt={
-                        Object {
-                                    "amount": "extra",
-                                    "name": "pepperoni",
-                                  }
-            }
+            alt="pepperoni"
             src="/assets/pepperoni-extra.svg"
 />,
           <img
-            alt={
-                        Object {
-                                    "amount": "extra",
-                                    "name": "sausage",
-                                  }
-            }
+            alt="sausage"
             src="/assets/sausage-extra.svg"
 />,
         ],
@@ -96,10 +81,7 @@ ShallowWrapper {
         "key": "0",
         "nodeType": "host",
         "props": Object {
-          "alt": Object {
-            "amount": "normal",
-            "name": "cheese",
-          },
+          "alt": "cheese",
           "src": "/assets/cheese-normal.svg",
         },
         "ref": null,
@@ -111,10 +93,7 @@ ShallowWrapper {
         "key": "1",
         "nodeType": "host",
         "props": Object {
-          "alt": Object {
-            "amount": "extra",
-            "name": "pepperoni",
-          },
+          "alt": "pepperoni",
           "src": "/assets/pepperoni-extra.svg",
         },
         "ref": null,
@@ -126,10 +105,7 @@ ShallowWrapper {
         "key": "2",
         "nodeType": "host",
         "props": Object {
-          "alt": Object {
-            "amount": "extra",
-            "name": "sausage",
-          },
+          "alt": "sausage",
           "src": "/assets/sausage-extra.svg",
         },
         "ref": null,
@@ -164,30 +140,15 @@ ShallowWrapper {
 />,
           Array [
             <img
-              alt={
-                            Object {
-                                          "amount": "normal",
-                                          "name": "cheese",
-                                        }
-              }
+              alt="cheese"
               src="/assets/cheese-normal.svg"
 />,
             <img
-              alt={
-                            Object {
-                                          "amount": "extra",
-                                          "name": "pepperoni",
-                                        }
-              }
+              alt="pepperoni"
               src="/assets/pepperoni-extra.svg"
 />,
             <img
-              alt={
-                            Object {
-                                          "amount": "extra",
-                                          "name": "sausage",
-                                        }
-              }
+              alt="sausage"
               src="/assets/sausage-extra.svg"
 />,
           ],
@@ -217,10 +178,7 @@ ShallowWrapper {
           "key": "0",
           "nodeType": "host",
           "props": Object {
-            "alt": Object {
-              "amount": "normal",
-              "name": "cheese",
-            },
+            "alt": "cheese",
             "src": "/assets/cheese-normal.svg",
           },
           "ref": null,
@@ -232,10 +190,7 @@ ShallowWrapper {
           "key": "1",
           "nodeType": "host",
           "props": Object {
-            "alt": Object {
-              "amount": "extra",
-              "name": "pepperoni",
-            },
+            "alt": "pepperoni",
             "src": "/assets/pepperoni-extra.svg",
           },
           "ref": null,
@@ -247,10 +202,7 @@ ShallowWrapper {
           "key": "2",
           "nodeType": "host",
           "props": Object {
-            "alt": Object {
-              "amount": "extra",
-              "name": "sausage",
-            },
+            "alt": "sausage",
             "src": "/assets/sausage-extra.svg",
           },
           "ref": null,

@@ -1,6 +1,7 @@
 import checkNormal from './checkNormal';
 
 describe('checkNormal tests', () => {
+
   it('should be a function', () => {
     expect(checkNormal).toBeAFunction;
   });
@@ -13,4 +14,5 @@ describe('checkNormal tests', () => {
   it('should return undefined if val does not match bold array', () => {
     expect(checkNormal('CharlesBarkley')).toEqual(undefined);
   });
+  
 });

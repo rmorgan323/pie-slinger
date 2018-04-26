@@ -11,6 +11,7 @@ const mockPizza = {
 };
 
 describe('OrderDetailsRight tests', () => {
+
   it('should match the snapshot', () => {
     const renderedApp = shallow(
       <OrderDetailsRight 
@@ -19,4 +20,5 @@ describe('OrderDetailsRight tests', () => {
     );
     expect(renderedApp).toMatchSnapshot();
   });
+  
 });

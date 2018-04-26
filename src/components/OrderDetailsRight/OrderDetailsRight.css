@@ -49,8 +49,8 @@ p {
 
 /***  MIXINS  ***/
 .OrderDetailsRight {
-  width: 260px;
-  padding: 0 30px; }
+  padding: 0 30px;
+  width: 260px; }
   .OrderDetailsRight .toppings-container {
     border-left: 6px solid #ded2bb;
     padding-left: 10px; }
