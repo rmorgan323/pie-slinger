@@ -14,15 +14,17 @@ const Graphic = ({ crust, size, toppings }) => {
         return (
           <img 
             key={index} 
-            src={`/assets/${topping.name}-${topping.amount}.svg`} alt={topping.name} 
+            src={require(`./assets/${topping.name}-${topping.amount}.svg`)} alt={topping.name} 
           />
         );
+      } else {
+        return null;
       }
     });
   };
 
   const displayCrust = () => {
-    return <img src={`/assets/crust-${crust}.svg`} alt={`${crust} crust`} />;
+    return <img src={require(`./assets/crust-${crust}.svg`)} alt={`${crust} crust`} />;
   };
 
   const pizzaClass = pizzaSize => {
@@ -31,7 +33,7 @@ const Graphic = ({ crust, size, toppings }) => {
 
   return (
     <div className={pizzaClass(size)}>
-      <img src="/assets/background.svg" alt="pizza background" />
+      <img src={require("./assets/background.svg")} alt="pizza background" />
       {displayToppings()}
       {displayCrust()}
     </div>
