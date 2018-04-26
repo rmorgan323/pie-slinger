@@ -43,8 +43,8 @@ describe('Graphic tests', () => {
       />
     );
 
-    expect(renderedApp.find('img[src="/assets/cheese-extra.svg"]').length).toEqual(1);
-    expect(renderedApp.find('img[src="/assets/anchovies-extra.svg"]').length).toEqual(0);
+    expect(renderedApp.find('img[src="cheese-extra.svg"]').length).toEqual(1);
+    expect(renderedApp.find('img[src="anchovies-extra.svg"]').length).toEqual(0);
   });
 
 });

@@ -12,7 +12,7 @@ const OrderDetailsLeft = ({ date, orderId, crust, size }) => {
       <div>
         <h3>ORDER</h3>
         <div className="order-container">
-          <p>{moment(date).calendar()}</p>
+          <p>{moment(date).format('MMMM Do, h:mm a')}</p>
           <p>Order ID: {orderId}</p>
         </div>
         <h3>PIZZA</h3>

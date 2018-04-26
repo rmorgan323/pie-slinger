@@ -39,25 +39,25 @@ ShallowWrapper {
       "children": Array [
         <img
           alt="pizza background"
-          src="/assets/background.svg"
+          src="background.svg"
 />,
         Array [
           <img
             alt="cheese"
-            src="/assets/cheese-normal.svg"
+            src="cheese-normal.svg"
 />,
           <img
             alt="pepperoni"
-            src="/assets/pepperoni-extra.svg"
+            src="pepperoni-extra.svg"
 />,
           <img
             alt="sausage"
-            src="/assets/sausage-extra.svg"
+            src="sausage-extra.svg"
 />,
         ],
         <img
           alt="thin crust"
-          src="/assets/crust-thin.svg"
+          src="crust-thin.svg"
 />,
       ],
       "className": "Graphic medium-pizza",
@@ -70,7 +70,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "pizza background",
-          "src": "/assets/background.svg",
+          "src": "background.svg",
         },
         "ref": null,
         "rendered": null,
@@ -82,7 +82,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "cheese",
-          "src": "/assets/cheese-normal.svg",
+          "src": "cheese-normal.svg",
         },
         "ref": null,
         "rendered": null,
@@ -94,7 +94,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "pepperoni",
-          "src": "/assets/pepperoni-extra.svg",
+          "src": "pepperoni-extra.svg",
         },
         "ref": null,
         "rendered": null,
@@ -106,7 +106,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "sausage",
-          "src": "/assets/sausage-extra.svg",
+          "src": "sausage-extra.svg",
         },
         "ref": null,
         "rendered": null,
@@ -118,7 +118,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "thin crust",
-          "src": "/assets/crust-thin.svg",
+          "src": "crust-thin.svg",
         },
         "ref": null,
         "rendered": null,
@@ -136,25 +136,25 @@ ShallowWrapper {
         "children": Array [
           <img
             alt="pizza background"
-            src="/assets/background.svg"
+            src="background.svg"
 />,
           Array [
             <img
               alt="cheese"
-              src="/assets/cheese-normal.svg"
+              src="cheese-normal.svg"
 />,
             <img
               alt="pepperoni"
-              src="/assets/pepperoni-extra.svg"
+              src="pepperoni-extra.svg"
 />,
             <img
               alt="sausage"
-              src="/assets/sausage-extra.svg"
+              src="sausage-extra.svg"
 />,
           ],
           <img
             alt="thin crust"
-            src="/assets/crust-thin.svg"
+            src="crust-thin.svg"
 />,
         ],
         "className": "Graphic medium-pizza",
@@ -167,7 +167,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "pizza background",
-            "src": "/assets/background.svg",
+            "src": "background.svg",
           },
           "ref": null,
           "rendered": null,
@@ -179,7 +179,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "cheese",
-            "src": "/assets/cheese-normal.svg",
+            "src": "cheese-normal.svg",
           },
           "ref": null,
           "rendered": null,
@@ -191,7 +191,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "pepperoni",
-            "src": "/assets/pepperoni-extra.svg",
+            "src": "pepperoni-extra.svg",
           },
           "ref": null,
           "rendered": null,
@@ -203,7 +203,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "sausage",
-            "src": "/assets/sausage-extra.svg",
+            "src": "sausage-extra.svg",
           },
           "ref": null,
           "rendered": null,
@@ -215,7 +215,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "thin crust",
-            "src": "/assets/crust-thin.svg",
+            "src": "crust-thin.svg",
           },
           "ref": null,
           "rendered": null,
