@@ -19,5 +19,7 @@
   width: 400px; }
 
 @media screen and (max-width: 420px) {
+  .Graphic {
+    margin: 5px auto; }
   .large-pizza {
-    width: 380px; } }
+    width: 365px; } }
