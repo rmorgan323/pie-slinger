@@ -7,7 +7,8 @@ Pizza drawings are svgs built in layers in Adobe Illustrator.
 
 To run test suite, clone down the repo and run:
 
-npm install
-npm test
+**npm install**
+<br />
+**npm test**
 
 ![screenshot](pie-slinger-ss.png)
