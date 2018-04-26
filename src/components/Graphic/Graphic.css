@@ -17,3 +17,7 @@
 .large-pizza {
   height: 266px;
   width: 400px; }
+
+@media screen and (max-width: 420px) {
+  .large-pizza {
+    width: 380px; } }

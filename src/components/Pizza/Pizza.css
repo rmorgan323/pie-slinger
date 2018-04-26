@@ -50,7 +50,8 @@ p {
 /***  MIXINS  ***/
 .Pizza {
   margin: auto;
-  max-width: 920px; }
+  max-width: 920px;
+  padding-bottom: 20px; }
   .Pizza .get-pizza-button {
     background-color: #be1e2d;
     border-bottom: 6px solid #d43947;
