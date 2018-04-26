@@ -10,4 +10,4 @@ To run test suite, clone down the repo and run:
 npm install
 npm test
 
-![screenshot]('pie-slinger-ss.png')
+![screenshot](pie-slinger-ss.png)
