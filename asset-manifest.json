@@ -1,6 +1,26 @@
 {
   "main.css": "static/css/main.0413d8e9.css",
   "main.css.map": "static/css/main.0413d8e9.css.map",
-  "main.js": "static/js/main.061f6134.js",
-  "main.js.map": "static/js/main.061f6134.js.map"
+  "main.js": "static/js/main.eafb1323.js",
+  "main.js.map": "static/js/main.eafb1323.js.map",
+  "static/media/background.svg": "static/media/background.d88d742e.svg",
+  "static/media/bacon-extra.svg": "static/media/bacon-extra.1f2e4b37.svg",
+  "static/media/bacon-normal.svg": "static/media/bacon-normal.857fec47.svg",
+  "static/media/cheese-extra.svg": "static/media/cheese-extra.ed003f18.svg",
+  "static/media/cheese-normal.svg": "static/media/cheese-normal.b7b04ac0.svg",
+  "static/media/crust-normal.svg": "static/media/crust-normal.ab02535a.svg",
+  "static/media/crust-stuffed.svg": "static/media/crust-stuffed.1fbcf18b.svg",
+  "static/media/crust-thin.svg": "static/media/crust-thin.a0a431ac.svg",
+  "static/media/ham-extra.svg": "static/media/ham-extra.fd325fff.svg",
+  "static/media/ham-normal.svg": "static/media/ham-normal.78fcf74c.svg",
+  "static/media/mushrooms-extra.svg": "static/media/mushrooms-extra.37542f02.svg",
+  "static/media/mushrooms-normal.svg": "static/media/mushrooms-normal.fc8a8ef8.svg",
+  "static/media/pepperoni-extra.svg": "static/media/pepperoni-extra.69c6955f.svg",
+  "static/media/pepperoni-normal.svg": "static/media/pepperoni-normal.fddfa532.svg",
+  "static/media/peppers-extra.svg": "static/media/peppers-extra.74d26ecc.svg",
+  "static/media/peppers-normal.svg": "static/media/peppers-normal.ec9be944.svg",
+  "static/media/pineapple-extra.svg": "static/media/pineapple-extra.04c6d0fa.svg",
+  "static/media/pineapple-normal.svg": "static/media/pineapple-normal.e73cc790.svg",
+  "static/media/sausage-extra.svg": "static/media/sausage-extra.58525168.svg",
+  "static/media/sausage-normal.svg": "static/media/sausage-normal.b7d1aacc.svg"
 }
